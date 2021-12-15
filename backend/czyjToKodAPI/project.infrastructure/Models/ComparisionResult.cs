@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace project.infrastructure.Models
 {
-    public class ComparisionResult
+    public partial class ComparisionResult
     {
-        public string verdict;
-        public int sameVariableNames;
-        public double percentOfSimilarity;
-        public int differencesInLanguageWords;
+        public string verdict { get; set; }
+        public int sameVariableNames { get; set; }
+        public double percentOfSimilarity { get; set; }
+        public int differencesInLanguageWords { get; set; }
     }
 }
