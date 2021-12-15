@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "project.infrastructure", "project.infrastructure\project.infrastructure.csproj", "{F071F4B5-6FF1-44AD-B3C3-82B88CA40EDD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chessApi", "chessAPI\chessApi.csproj", "{858A12E7-5222-4529-BF0A-3FD592B511A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "czyjToKodAPI", "czyjToKodAPI\czyjToKodAPI.csproj", "{836BFE71-86F1-4857-BA1F-ED7F847FBF39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{F071F4B5-6FF1-44AD-B3C3-82B88CA40EDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F071F4B5-6FF1-44AD-B3C3-82B88CA40EDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F071F4B5-6FF1-44AD-B3C3-82B88CA40EDD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{858A12E7-5222-4529-BF0A-3FD592B511A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{858A12E7-5222-4529-BF0A-3FD592B511A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{858A12E7-5222-4529-BF0A-3FD592B511A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{858A12E7-5222-4529-BF0A-3FD592B511A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{836BFE71-86F1-4857-BA1F-ED7F847FBF39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{836BFE71-86F1-4857-BA1F-ED7F847FBF39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{836BFE71-86F1-4857-BA1F-ED7F847FBF39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{836BFE71-86F1-4857-BA1F-ED7F847FBF39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

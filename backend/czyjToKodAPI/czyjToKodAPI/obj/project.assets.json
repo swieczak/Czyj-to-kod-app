@@ -291,11 +291,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rafał\\Documents\\czyj-to-kod\\backend\\czyjToKodAPI\\chessAPI\\czyjToKodAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Rafał\\Documents\\czyj-to-kod\\backend\\czyjToKodAPI\\czyjToKodAPI\\czyjToKodAPI.csproj",
       "projectName": "czyjToKodAPI",
-      "projectPath": "C:\\Users\\Rafał\\Documents\\czyj-to-kod\\backend\\czyjToKodAPI\\chessAPI\\czyjToKodAPI.csproj",
+      "projectPath": "C:\\Users\\Rafał\\Documents\\czyj-to-kod\\backend\\czyjToKodAPI\\czyjToKodAPI\\czyjToKodAPI.csproj",
       "packagesPath": "C:\\Users\\Rafał\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rafał\\Documents\\czyj-to-kod\\backend\\czyjToKodAPI\\chessAPI\\obj\\",
+      "outputPath": "C:\\Users\\Rafał\\Documents\\czyj-to-kod\\backend\\czyjToKodAPI\\czyjToKodAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Rafał\\AppData\\Roaming\\NuGet\\NuGet.Config",

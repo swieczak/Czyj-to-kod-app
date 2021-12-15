@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tlVRa+R5KrOBLBwm4tvmKOx0PWsLSx7OCvJ8hm88HITLLFR4UjVandmmfZgF12I4NBnhNu2YlzVY2ivWi1UMZA==",
+  "dgSpecHash": "AVuPsw+JScJKBF3XrjqIbVFeFVX3tZ6t+W9/tfOjz3t5ArfEx0hRq4/v0wN3MLWSKzNLJy18tCToW7asqi8z7g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rafał\\Documents\\czyj-to-kod\\backend\\czyjToKodAPI\\chessAPI\\czyjToKodAPI.csproj",
+  "projectFilePath": "C:\\Users\\Rafał\\Documents\\czyj-to-kod\\backend\\czyjToKodAPI\\czyjToKodAPI\\czyjToKodAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rafał\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\Rafał\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
