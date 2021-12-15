@@ -1,0 +1,15 @@
+C:\Users\Rafał\Documents\chess-management\backend\boardGamesAPI\project.infrastructure\bin\Debug\net5.0\project.infrastructure.deps.json
+C:\Users\Rafał\Documents\chess-management\backend\boardGamesAPI\project.infrastructure\bin\Debug\net5.0\project.infrastructure.runtimeconfig.json
+C:\Users\Rafał\Documents\chess-management\backend\boardGamesAPI\project.infrastructure\bin\Debug\net5.0\project.infrastructure.runtimeconfig.dev.json
+C:\Users\Rafał\Documents\chess-management\backend\boardGamesAPI\project.infrastructure\bin\Debug\net5.0\project.infrastructure.dll
+C:\Users\Rafał\Documents\chess-management\backend\boardGamesAPI\project.infrastructure\bin\Debug\net5.0\ref\project.infrastructure.dll
+C:\Users\Rafał\Documents\chess-management\backend\boardGamesAPI\project.infrastructure\bin\Debug\net5.0\project.infrastructure.pdb
+C:\Users\Rafał\Documents\chess-management\backend\boardGamesAPI\project.infrastructure\obj\Debug\net5.0\project.infrastructure.csproj.AssemblyReference.cache
+C:\Users\Rafał\Documents\chess-management\backend\boardGamesAPI\project.infrastructure\obj\Debug\net5.0\project.infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rafał\Documents\chess-management\backend\boardGamesAPI\project.infrastructure\obj\Debug\net5.0\project.infrastructure.AssemblyInfoInputs.cache
+C:\Users\Rafał\Documents\chess-management\backend\boardGamesAPI\project.infrastructure\obj\Debug\net5.0\project.infrastructure.AssemblyInfo.cs
+C:\Users\Rafał\Documents\chess-management\backend\boardGamesAPI\project.infrastructure\obj\Debug\net5.0\project.infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Rafał\Documents\chess-management\backend\boardGamesAPI\project.infrastructure\obj\Debug\net5.0\project.infrastructure.dll
+C:\Users\Rafał\Documents\chess-management\backend\boardGamesAPI\project.infrastructure\obj\Debug\net5.0\ref\project.infrastructure.dll
+C:\Users\Rafał\Documents\chess-management\backend\boardGamesAPI\project.infrastructure\obj\Debug\net5.0\project.infrastructure.pdb
+C:\Users\Rafał\Documents\chess-management\backend\boardGamesAPI\project.infrastructure\obj\Debug\net5.0\project.infrastructure.genruntimeconfig.cache
