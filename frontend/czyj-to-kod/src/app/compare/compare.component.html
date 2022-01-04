@@ -1,11 +1,10 @@
-<tr>
-    <td>
-        <textarea readonly placeholder="porownany tekst 1"></textarea>
-    </td>
-    <td></td>
-    <td>
-        <textarea readonly placeholder="porownany tekst 1"></textarea>
-    </td>
-</tr>
-<h2>Statystyki:</h2>
 
+  <table style="margin-left:auto;margin-right:auto;"><tr>
+      <td><textarea #firstText ></textarea></td>
+      <td><textarea #secondText></textarea></td>
+      </tr>
+      <tr>
+          <td><button type="button" (click)="addFirstText(firstText.value)" >add first</button></td>
+          <td><button type="button" (click)="addSecondText(secondText.value)">add second</button></td>
+        </tr>
+</table>

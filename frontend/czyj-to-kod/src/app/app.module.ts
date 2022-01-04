@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TestComponent } from './test/test.component';
 import { CompareComponent } from './compare/compare.component';
+import { StatsComponent } from './stats/stats.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TestComponent,
-    CompareComponent
+    CompareComponent,
+    StatsComponent
   ],
   imports: [
     BrowserModule,

@@ -3,34 +3,34 @@
 
 
 </div>
-<div>
-<table style="margin-left:auto;margin-right:auto;">
 
+<br />
+
+
+<app-compare [fText]="text1" (firstTextEvent)="addFirstText($event)" [sText]="text2" (secondTextEvent)="addSecondText($event)"></app-compare>
+<div>
+    <table style="margin-left:auto;margin-right:auto;">
+    
+    <tr>
+    <td>
+        <button (click) ="onPress()">COMPARE</button>
+    </td>
+    </table>
+    </div>
+
+
+<table style="margin-left:auto;margin-right:auto;" >
 <tr>
     <td>
-<textarea [(ngModel)]="text1"></textarea>
-</td>
-<td>
-<button (click)="onPress()">Compare!</button>
-</td>
-<td>
-<textarea [(ngModel)]="text2"></textarea>
-
-</td>
-
-</tr>
-<tr>
-<td>
-    <textarea readonly>{{text1}}</textarea>
-</td>
-<td></td>
-<td>
-    <textarea readonly>{{text2}}</textarea>
-</td>
+        <textarea class="read" readonly placeholder="porownany tekst 1">{{text1}}</textarea>
+    </td>
+    <td></td>
+    <td>
+        <textarea class="read" readonly placeholder="porownany tekst 1">{{text2}}</textarea>
+    </td>
 </tr>
 </table>
-</div>
-<br />
-<div *ngIf="display">
-<app-compare></app-compare>
-</div>
+<div *ngIf="stat1">
+    <div *ngIf="stat2">
+  <div *ngIf="display">
+    <app-stats></app-stats></div></div></div>

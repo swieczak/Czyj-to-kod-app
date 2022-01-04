@@ -1,0 +1,23 @@
+div{
+    font-family: Arial, Helvetica, sans-serif;
+    height: auto;
+    text-align: center;
+    width: auto;
+}
+h2{
+    width: auto;
+    height: 20pt;
+    color: darkslategrey;
+    background-color: rgba(158, 241, 229, 0.459);
+}
+textarea{
+    font-family: 'Courier New', Courier, monospace;
+    max-width:550px;
+    width: 550px;
+    min-height: 200px;
+    resize:none;
+    text-align: center;
+    border: none;
+    color: black;
+    word-break: break-all;
+    margin: 10pt;}
