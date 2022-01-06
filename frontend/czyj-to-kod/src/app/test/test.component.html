@@ -1,36 +1,36 @@
-<div>
-    <h1>CzyjToKod</h1>
-
-
-</div>
-
+<br />
+<br />
 <br />
 
+
+<div>
+    <h1>CzyjToKod</h1>
+</div>
 
 <app-compare [fText]="text1" (firstTextEvent)="addFirstText($event)" [sText]="text2" (secondTextEvent)="addSecondText($event)"></app-compare>
 <div>
     <table style="margin-left:auto;margin-right:auto;">
-    
-    <tr>
     <td>
         <button (click) ="onPress()">COMPARE</button>
     </td>
     </table>
     </div>
+    <br>
 
 
-<table style="margin-left:auto;margin-right:auto;" >
-<tr>
-    <td>
-        <textarea class="read" readonly placeholder="porownany tekst 1">{{text1}}</textarea>
-    </td>
-    <td></td>
-    <td>
-        <textarea class="read" readonly placeholder="porownany tekst 1">{{text2}}</textarea>
-    </td>
-</tr>
-</table>
 <div *ngIf="stat1">
     <div *ngIf="stat2">
   <div *ngIf="display">
+    <table style="margin-left:auto;margin-right:auto;" >
+    <tr>
+        <td>
+            <textarea class="read" readonly >{{text1}}</textarea>
+        </td>
+        <td></td>
+        <td>
+            <textarea class="read" readonly >{{text2}}</textarea>
+        </td>
+    </tr>
+</table>
+
     <app-stats></app-stats></div></div></div>

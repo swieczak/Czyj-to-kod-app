@@ -18,7 +18,6 @@ export class TestComponent implements OnInit {
   text2: string | undefined;
   stat1=false;
   stat2=false;
-
   addFirstText(firstText: any) {
     this.text1 = firstText;
     this.stat1=true;

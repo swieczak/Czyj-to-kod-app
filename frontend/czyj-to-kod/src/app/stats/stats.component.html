@@ -1,6 +1,15 @@
 
+<div class='stathead'><h2>Statistics:</h2></div>
+<div class="stat">
+    <p >Similarity percentage:</p>
+    <p>Common words:</p></div>
 
+<!-- testing of coloring common words-->
 
-<div><h2>Statystyki:</h2>
-    <p>procent podobieństwa:</p>
-</div>
+<li *ngFor="let element of listOfWords1">
+    <div *ngIf="listOfWords2.includes(element); else content">
+        <ul class=incl>{{element}}</ul>
+    </div>
+    <ng-template #content><ul>{{element}}</ul></ng-template>
+    </li>
+<!-------------------------------------->

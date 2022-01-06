@@ -1,10 +1,12 @@
 
-  <table style="margin-left:auto;margin-right:auto;"><tr>
+  <table style="margin-left:auto;margin-right:auto;">
+    <tr class='comment'><td>PASTE HERE FIRST CODE <span class="long-arrow-left"></span></td><td> PASTE HERE CODE TO COMPARE<span class="long-arrow-left"></span> </td></tr>
+    <tr>
       <td><textarea #firstText ></textarea></td>
       <td><textarea #secondText></textarea></td>
       </tr>
       <tr>
-          <td><button type="button" (click)="addFirstText(firstText.value)" >add first</button></td>
-          <td><button type="button" (click)="addSecondText(secondText.value)">add second</button></td>
+          <td><button type="button" (click)="addFirstText(firstText.value)" >+</button></td>
+          <td><button type="button" (click)="addSecondText(secondText.value)">+</button></td>
         </tr>
 </table>

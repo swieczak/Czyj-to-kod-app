@@ -1,5 +1,4 @@
 
-
 textarea{
     max-width:500px;
     width: 500px;
@@ -7,7 +6,7 @@ textarea{
     resize:none;
     color: black;
     word-break: break-all;
-    margin: 10pt;
+    margin: 5pt;
     font-family: 'Courier New', Courier, monospace;
 
 
@@ -22,34 +21,34 @@ textarea.read{
     text-align: center;
     border: none;
     color: black;
-    word-break: break-all;
-    margin: 10pt;}
+    word-break: break-all;}
 
 
 h1{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    margin-top: 30pt;
     font-size: 25pt;
     width: auto;
     height: 30pt;
-    color: darkslategrey;
-    background-color: rgba(158, 241, 229, 0.459);
+    color: rgb(0, 6, 56);
+    background-color: rgba(130, 240, 255, 0.89);
 }
 button{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(90, 124, 124, 0.404);
-    border: darkslategray;
+    background-color: rgb(133, 255, 255);
+    border: rgb(100, 255, 255);
     border-radius: 8pt;
     height: 40pt;
+    font-weight: bold;
     cursor: pointer;
-    box-shadow: 0 9px #999;
+    box-shadow: 0 9px rgb(0, 0, 0);
 }
 button:hover{
-background-color: #86e689
+    background-color: #0b84a8
 }
 button:active {
-    background-color: #86e689;
-    box-shadow: 0 5px #666;
+    color: linen;
+    background-color: #020069;
+    box-shadow: 0 5px rgb(0, 0, 0);
     transform: translateY(4px);
   }

@@ -27,20 +27,24 @@ textarea{
     
     button{
         font-family: Arial, Helvetica, sans-serif;
-        background-color: rgba(90, 124, 124, 0.404);
-        border: darkslategray;
+        background-color: rgb(133, 255, 255);
+        border: rgb(100, 255, 255);
         border-radius: 8pt;
         height: 40pt;
+        width: 40pt;
+        font-weight: bold;
         cursor: pointer;
-        box-shadow: 0 9px #999;
+        font-size: 20pt;
+        box-shadow: 0 9px rgb(0, 0, 0);
     }
     button:hover{
-    background-color: #86e689
+    background-color: #0b84a8
     }
     button:active {
-        background-color: #86e689;
-        box-shadow: 0 5px #666;
+        background-color: #020069;
+        box-shadow: 0 5px rgb(0, 0, 0);
         transform: translateY(4px);
+        color: linen;
       }
 
     div{
@@ -57,4 +61,17 @@ textarea{
     }
     td{
         text-align: center;
+    }
+    tr.comment{
+        color:linen;
+    }
+
+    .long-arrow-left{
+      display: block;
+      margin: auto;
+      width: 25px;
+      height: 25px;
+      border-top: 2px solid rgb(255, 255, 255);
+      border-left: 2px solid rgb(255, 255, 255);
+      transform: rotate(225deg);
     }
