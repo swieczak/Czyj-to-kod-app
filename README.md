@@ -61,6 +61,10 @@ Program wyświetla statystyki:
 - słów odrębnych dla każdego kodu,
 - słów wspólnych dla obu porównywanych kodów,
 - zliczone różnice w słowach kluczowych dla języka;
+##### 3.4. Schemat działania aplikacji
+
+
+![schemat](schemat.PNG "Schemat działania aplikacji")
 
 #### 4. Testowanie
 
