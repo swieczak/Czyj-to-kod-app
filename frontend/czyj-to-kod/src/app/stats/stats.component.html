@@ -1,8 +1,19 @@
 
 <div class='stathead'><h2>Statistics:</h2></div>
 <div class="stat">
-    <p >Similarity percentage:</p>
-    <p>Common words:</p></div>
+    <p>Similarity percentage: {{responseFromComparision?.percentOfSimilarity | percent}}</p>
+    <div>
+        <div><b>Variables existing only in 1st code</b>
+        <p *ngFor="let element of responseFromComparision?.aVariables">{{element}}</p>
+        </div>
+        <div><b>Variables existing only in 2nd code</b>
+            <p *ngFor="let element of responseFromComparision?.bVariables">{{element}}</p>
+        </div>
+        <div><b>Common variables</b>
+            <p *ngFor="let element of responseFromComparision?.commonVariables">{{element}}</p>
+        </div>
+    </div>
+    <p>Verdict: {{responseFromComparision?.percentOfSimilarity}}</p></div>
 
 <!-- testing of coloring common words-->
 

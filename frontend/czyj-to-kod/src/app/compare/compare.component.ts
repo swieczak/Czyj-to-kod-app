@@ -19,6 +19,7 @@ export class CompareComponent implements OnInit {
   }
   addFirstText(val: string) {
     this.firstTextEvent.emit(val);}
+    
     addSecondText(val: string) {
       this.secondTextEvent.emit(val);}
 

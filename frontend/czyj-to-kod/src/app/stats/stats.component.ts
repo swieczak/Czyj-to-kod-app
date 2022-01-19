@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { ComparisionResult } from '../api/models';
 
 @Component({
   selector: 'app-stats',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./stats.component.scss']
 })
 export class StatsComponent implements OnInit {
+
+  @Input() responseFromComparision!:ComparisionResult;
 
   constructor() { }
   // demo lists of common words 

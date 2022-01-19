@@ -291,11 +291,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rafał\\Documents\\czyj-to-kod\\backend\\czyjToKodAPI\\czyjToKodAPI\\czyjToKodAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Rafał\\Documents\\czyj-to-kod-2\\backend\\czyjToKodAPI\\czyjToKodAPI\\czyjToKodAPI.csproj",
       "projectName": "czyjToKodAPI",
-      "projectPath": "C:\\Users\\Rafał\\Documents\\czyj-to-kod\\backend\\czyjToKodAPI\\czyjToKodAPI\\czyjToKodAPI.csproj",
+      "projectPath": "C:\\Users\\Rafał\\Documents\\czyj-to-kod-2\\backend\\czyjToKodAPI\\czyjToKodAPI\\czyjToKodAPI.csproj",
       "packagesPath": "C:\\Users\\Rafał\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rafał\\Documents\\czyj-to-kod\\backend\\czyjToKodAPI\\czyjToKodAPI\\obj\\",
+      "outputPath": "C:\\Users\\Rafał\\Documents\\czyj-to-kod-2\\backend\\czyjToKodAPI\\czyjToKodAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Rafał\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -312,8 +312,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Rafał\\Documents\\czyj-to-kod\\backend\\czyjToKodAPI\\project.infrastructure\\project.infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Rafał\\Documents\\czyj-to-kod\\backend\\czyjToKodAPI\\project.infrastructure\\project.infrastructure.csproj"
+            "C:\\Users\\Rafał\\Documents\\czyj-to-kod-2\\backend\\czyjToKodAPI\\project.infrastructure\\project.infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Rafał\\Documents\\czyj-to-kod-2\\backend\\czyjToKodAPI\\project.infrastructure\\project.infrastructure.csproj"
             }
           }
         }

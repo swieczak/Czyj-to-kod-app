@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rafał\\Documents\\czyj-to-kod\\backend\\czyjToKodAPI\\project.infrastructure\\project.infrastructure.csproj": {}
+    "C:\\Users\\Rafał\\Documents\\czyj-to-kod-2\\backend\\czyjToKodAPI\\project.infrastructure\\project.infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rafał\\Documents\\czyj-to-kod\\backend\\czyjToKodAPI\\project.infrastructure\\project.infrastructure.csproj": {
+    "C:\\Users\\Rafał\\Documents\\czyj-to-kod-2\\backend\\czyjToKodAPI\\project.infrastructure\\project.infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rafał\\Documents\\czyj-to-kod\\backend\\czyjToKodAPI\\project.infrastructure\\project.infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Rafał\\Documents\\czyj-to-kod-2\\backend\\czyjToKodAPI\\project.infrastructure\\project.infrastructure.csproj",
         "projectName": "project.infrastructure",
-        "projectPath": "C:\\Users\\Rafał\\Documents\\czyj-to-kod\\backend\\czyjToKodAPI\\project.infrastructure\\project.infrastructure.csproj",
+        "projectPath": "C:\\Users\\Rafał\\Documents\\czyj-to-kod-2\\backend\\czyjToKodAPI\\project.infrastructure\\project.infrastructure.csproj",
         "packagesPath": "C:\\Users\\Rafał\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rafał\\Documents\\czyj-to-kod\\backend\\czyjToKodAPI\\project.infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Rafał\\Documents\\czyj-to-kod-2\\backend\\czyjToKodAPI\\project.infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rafał\\AppData\\Roaming\\NuGet\\NuGet.Config",
