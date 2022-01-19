@@ -64,3 +64,4 @@ C:\Users\Rafał\Documents\czyj-to-kod-2\backend\czyjToKodAPI\czyjToKodAPI\obj\De
 C:\Users\Rafał\Documents\czyj-to-kod-2\backend\czyjToKodAPI\czyjToKodAPI\obj\Debug\net5.0\ref\czyjToKodAPI.dll
 C:\Users\Rafał\Documents\czyj-to-kod-2\backend\czyjToKodAPI\czyjToKodAPI\obj\Debug\net5.0\czyjToKodAPI.pdb
 C:\Users\Rafał\Documents\czyj-to-kod-2\backend\czyjToKodAPI\czyjToKodAPI\obj\Debug\net5.0\czyjToKodAPI.genruntimeconfig.cache
+C:\Users\Rafał\Documents\czyj-to-kod-2\backend\czyjToKodAPI\czyjToKodAPI\bin\Debug\net5.0\web.config

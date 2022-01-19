@@ -1,26 +1,19 @@
-
-<div class='stathead'><h2>Statistics:</h2></div>
+<div class='stathead'>
+  <h2>Statistics:</h2>
+</div>
 <div class="stat">
-    <p>Similarity percentage: {{responseFromComparision?.percentOfSimilarity | percent}}</p>
-    <div>
-        <div><b>Variables existing only in 1st code</b>
-        <p *ngFor="let element of responseFromComparision?.aVariables">{{element}}</p>
-        </div>
-        <div><b>Variables existing only in 2nd code</b>
-            <p *ngFor="let element of responseFromComparision?.bVariables">{{element}}</p>
-        </div>
-        <div><b>Common variables</b>
-            <p *ngFor="let element of responseFromComparision?.commonVariables">{{element}}</p>
-        </div>
+  <p style="font-size: 20px; font-weight: bold;">Similarity percentage: {{responseFromComparision?.percentOfSimilarity | percent}}</p>
+  <div style="display: flex; flex-direction: row; gap:10px">
+    <div style="flex-grow: 1;"><b>Variables existing only in 1st code</b>
+      <p *ngFor="let element of responseFromComparision?.aVariables">{{element}}</p>
     </div>
-    <p>Verdict: {{responseFromComparision?.percentOfSimilarity}}</p></div>
-
-<!-- testing of coloring common words-->
-
-<li *ngFor="let element of listOfWords1">
-    <div *ngIf="listOfWords2.includes(element); else content">
-        <ul class=incl>{{element}}</ul>
+    <div style="flex-grow: 1;"><b>Variables existing only in 2nd code</b>
+      <p *ngFor="let element of responseFromComparision?.bVariables">{{element}}</p>
     </div>
-    <ng-template #content><ul>{{element}}</ul></ng-template>
-    </li>
-<!-------------------------------------->
+    <div style="flex-grow: 1;"><b>Common variables</b>
+      <p *ngFor="let element of responseFromComparision?.commonVariables">{{element}}</p>
+    </div>
+    <div style="flex-grow: 1;"><b>Differences in keywords usage</b>
+        <p *ngFor="let element of responseFromComparision?.difference | keyvalue">{{element.key}}: {{element.value}}</p>
+      </div>
+  </div>

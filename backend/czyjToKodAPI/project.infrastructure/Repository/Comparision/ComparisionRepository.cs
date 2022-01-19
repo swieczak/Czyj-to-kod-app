@@ -15,10 +15,18 @@ namespace project.infrastructure.Repository.Comparision
         "int", "short", "try", "char", "final", "interface", "static", "void", "class", "finally", "long", "strictfp", "volatile", "const", "float", "native", "super", "while"
     };
 
-        public string[] ignoreSigns = { "(", ")", "[", "]", ";", ":", "\"", "+", "-", "," };
-        public ComparisionResult compareTwoStrings(string string_a, string string_b)
+        public string[] ignoreSigns = { "(", ")", "[", "]", ";", ":", "\"", "+", "-", ",", "{", "}", "=", "==", "!="};
+        public ComparisionResult compareTwoStrings(string string_a = "", string string_b = "")
         {
-            // TODO: Implement logic
+            if(string_a == null)
+            {
+                string_a = "";
+            }
+            if (string_b == null)
+            {
+                string_b = "";
+            }
+
             Dictionary<string, int> occurancesInA = new Dictionary<string, int>();
             Dictionary<string, int> occurancesInB = new Dictionary<string, int>();
 
@@ -99,16 +107,13 @@ namespace project.infrastructure.Repository.Comparision
 
             double similarity = (double)commonWords.Count / (double)(wordsOnlyInA.Count + wordsOnlyInB.Count + commonWords.Count);
 
-            //TODO Compare java word dict
-            //TODO Compare non java words
-
             return new ComparisionResult()
             {
                 difference = differenceInKeywords,
-                AVariables = wordsOnlyInA,
-                BVariables = wordsOnlyInB,
-                commonVariables = commonWords,
-                percentOfSimilarity = similarity,
+                AVariables = wordsOnlyInA.Distinct().ToList(),
+            BVariables = wordsOnlyInB.Distinct().ToList(),
+            commonVariables = commonWords.Distinct().ToList(),
+            percentOfSimilarity = similarity,
             };
         }
     }

@@ -16,8 +16,8 @@ comparisionResult!:ComparisionResult;
     this.display = !this.display;
   }
 
-  text1: string | undefined;
-  text2: string | undefined;
+  text1: string = "";
+  text2: string = "";
   stat1=false;
   stat2=false;
   addFirstText(firstText: any) {
@@ -33,7 +33,7 @@ comparisionResult!:ComparisionResult;
 
   compareCode(){
     this.comparisionService.compareTwoStringsGet$Json({string_a:this.text1, string_b:this.text2}).subscribe((reponse)=>{this.comparisionResult = reponse});
-    console.log("pobrało");
+   
 
   }
 

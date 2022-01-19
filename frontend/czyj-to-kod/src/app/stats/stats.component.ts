@@ -1,5 +1,11 @@
-import { Component, Input, OnInit } from '@angular/core';
-import { ComparisionResult } from '../api/models';
+import {
+  Component,
+  Input,
+  OnInit
+} from '@angular/core';
+import {
+  ComparisionResult
+} from '../api/models';
 
 @Component({
   selector: 'app-stats',
@@ -8,14 +14,10 @@ import { ComparisionResult } from '../api/models';
 })
 export class StatsComponent implements OnInit {
 
-  @Input() responseFromComparision!:ComparisionResult;
+  @Input() responseFromComparision!: ComparisionResult;
 
-  constructor() { }
-  // demo lists of common words 
-  listOfWords1=['kotek','a','b','f','f','e'];
-  listOfWords2=['kotek','b']; 
-  /////
-  ngOnInit(): void {
-  }
+  constructor() {}
+
+  ngOnInit(): void {}
 
 }
